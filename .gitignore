@@ -1,0 +1,43 @@
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*.pyc
+*~
+~*
+*.bak
+
+# OS or Editor folders
+.DS_Store
+.cache
+.project
+.settings
+.classpath
+nbproject
+thumbs.db
+.gradle
+
+# Folders to ignore
+.hg
+.svn
+intermediate
+publish
+.idea
+coverage
+**/views/public
+
+# usercerts
+*.pfx
+*.cer
+
+# node_modules
+node_modules
+npm-debug.log
+
+# bower
+**/bower_components
